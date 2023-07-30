@@ -17,6 +17,26 @@ ul{
 
 }
 
+h1{    font-family: 'Work Sans', sans-serif;
+    color: #00425A;
+    text-align: center;
+    background-color: rgba(239, 245,245, 0.6);
+
+
+}
+
+h2{font-family: 'Work Sans', sans-serif;
+    color: #00425A;
+    text-align: center;
+    background-color: rgba(239, 245,245, 0.6);
+
+}
+
+h3{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
 
 #logo{
     width: 10%;
@@ -60,6 +80,39 @@ height: 426px;
 .Seccion{
     font-family: 'Work Sans', sans-serif;
     margin: 10px;
+    color: #181823;
+}
+
+
+#QuienesSomos{
+ display: inline;   
+ text-align: center;
+ gap: 5px;
+
+}
+#PorQueElegirnos{
+display:inline;
+text-align: center;
+gap: 5px;}
+
+#PropuestaEducativa{
+    display: inline;
+
+}
+
+.card{
+    background-color: #1F8A70;
+    width: 18rem;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.Noticias{
+    text-align: center;
 }
 
 #PiedePagina{
@@ -109,8 +162,42 @@ height: 426px;
 
     }
  
+    #QuienesSomos{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #PorQueElegirnos{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #PropuestaEdu{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 5px;
+        margin-left: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #UltimasNoticias{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: #1F8A70;
+
+    }
+
 }
 
 @media (min-width: 1200px){
+    #PropuestaEdu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        margin-left: 5px;
+        align-items: center;
+        justify-content: center;
+
 
 }
