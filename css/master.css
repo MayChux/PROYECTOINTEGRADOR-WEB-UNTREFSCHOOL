@@ -1,11 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1F8A70;
+    
+}
 
 
-body{
- font-family: 'Work Sans', sans-serif;
+img{
+    width: 100%;
+    
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+
+#logo{
+    width: 10%;
+    justify-content: center;
+    margin: auto;
+
+
+}
+
+#menu{
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+
+}
+#Banner{
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+
+
+}
+
+
+/*#bannertitulo{
+max-width: 100%;
+height: 426px;
+    justify-content: center;
+    margin: auto;
+}*/
+#titulo{
+    position: absolute;
+    top: 123px;
+    font-size: 3rem;
+    color: #181823 ;
+    background-color: rgba(252  , 73, 00, 0.5);
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    /*font-weight: 200;*/
+
+}
+.Seccion{
+    font-family: 'Work Sans', sans-serif;
+    margin: 10px;
 }
 
 #PiedePagina{
-    display:grid;
-    grid-template-columns: repeat(3,5rem);
-    justify-items: center;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: bold;
+}
+@media (min-width: 768px){
+
+    #Encabezado{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Belanosima', sans-serif;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-right: 50px;
+        font-size: 25px;
+        
+        
+    }
+    
+    #opciones{
+        display: flex;
+        gap: 20px;
+        
+    
+    }
+
+    #Banner{
+        align-items: center;
+        position: relative;
+        display: inline;
+        text-align: center;
+
+    }
+
+    #titulo{
+        position: absolute;
+        top: 120px;
+        font-size: 7rem;
+        color: #181823 ;
+        background-color: rgba(252  , 73, 00, 0.5);
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+
+    }
+ 
+}
+
+@media (min-width: 1200px){
+
 }
